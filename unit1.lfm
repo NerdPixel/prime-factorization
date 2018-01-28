@@ -1,0 +1,48 @@
+object Form1: TForm1
+  Left = 1131
+  Height = 453
+  Top = 199
+  Width = 648
+  Caption = 'Form1'
+  ClientHeight = 453
+  ClientWidth = 648
+  OnCreate = FormCreate
+  LCLVersion = '1.8.0.6'
+  object Edit1: TEdit
+    Left = 32
+    Height = 23
+    Top = 96
+    Width = 80
+    OnChange = Edit1Change
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 141
+    Height = 25
+    Top = 94
+    Width = 75
+    Caption = 'Init'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 24
+    Height = 306
+    Top = 136
+    Width = 288
+    Lines.Strings = (
+      'Memo1'
+    )
+    OnChange = Memo1Change
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 360
+    Height = 25
+    Top = 256
+    Width = 75
+    Caption = 'Clear'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+end
